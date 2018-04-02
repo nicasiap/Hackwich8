@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // Do not have to create another restaurant object (restaurant.swift file) to add in a restaurant
         
         let restaurantOne = Restaurant(title: "Kalapawai", type: "Kalapawai", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
         mapView.addAnnotation(restaurantOne)
